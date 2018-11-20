@@ -1,63 +1,89 @@
-nav ul {
-    list-style-type: none;
+body {
+    margin:0;
+}
+
+#main-wrapper {
+    width: 100%;
+}
+
+
+.wrapper-nav {
+    margin-top:-30px;
     text-align: left;
 
 }
+
+.info {
+
+    display: inline-block;
+    width: 1000px;
+    text-align: right;
+}
+
+
+nav ul {
+    list-style-type: none;
+
+}
+
 nav li {
-    margin: 50px;
-    padding: 0;
-    width: 100px;
-    float: right;
-  }
+    margin: 15px;
+    display: inline-block;
+}
 
 
-nav ul li a {
+nav a {
     text-decoration: none;
-    display: block;
-    text-align: center;
+
     font-size: 20px;
-    padding: 5px 25px 100px 50px;
+    padding-bottom: 5px;
     color: black;
-  float: left;
-}
-
-
-.name span{
-    color:white;
-    padding: 50px 100px;
-    background-color:rgb(59, 179, 129);
 
 }
 
-.name{
+
+
+.name {
+    width: 160px;
     font-size: 50px;
-   padding: 40px 20px;
+    color: white;
+    padding: 10px 50px;
+    background-color: rgb(59, 179, 129);
+    margin-bottom: 0px;
 }
 
 
 
 .aabout {
-    
-    background-attachment: fixed;
-    background-position: center; 
 
-    padding:200px ;
-   
-    background-image: url("../images/circuit.png");
+    background-position: center;
+
+    padding: 200px auto;    background-image: url("../images/circuit.png");
     margin: 5px;
     width: 100%;
-    overflow-x: hidden;
-}
-.about{
-        background: #ffffff;
-        height: 700px;
-        width: 900px;
-        background-size: cover;
-
+    overflow: hidden;
 
 }
 
-.about_me{
+.about {
+    background: white;
+    height: 700px;
+    width: 900px;
+    background-size: cover;
+    text-align: none;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.about-content{
+padding: 30px;
+
+
+}
+
+.about_me {
     font-size: 30px;
     color: aqua;
     text-align: top;
@@ -65,7 +91,7 @@ nav ul li a {
 
 }
 
-hr { 
+hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -75,50 +101,22 @@ hr {
     border-width: 1px;
 }
 
-p{
-    text-align: top;
-
+p {
+ 
+    float: right;
 }
 
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-input[type=message]{
-    width: 100%;
-    padding: 120px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;    
-}
-
-.img{
-
-    position: relative;
-    float: left ;
-    width:  100px;
-    height: 100px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
 
 
-}
 
-.container{
+
+.container {
 
     position: initial;
     width: 100px;
 
 }
+
 .text_box {
     position: absolute;
     bottom: 20px;
@@ -128,4 +126,59 @@ input[type=message]{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+
+button {
+    padding: 15px 20px;
+    color: white;
+    background-color: cadetblue
+}
+
+
+.container {
+    color: white;
+    padding: 40px;
+    background: black;
+    width: 100%;
+}
+
+button{
+ margin-left: 30px;
+width: 120px;
+
+
+}
+
+.container-box{
+    text-align: center;
+    background: black;
+    width: 250px;
+    height: 100px;
+    color: aliceblue;
+
+
+    font-size: 25px;
+    
+}
+
+table{
+    display: table;
+
+
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background: white;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
 

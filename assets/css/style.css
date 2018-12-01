@@ -65,6 +65,11 @@ nav a {
 
 }
 
+@media (max-width: 500px) .aabout{
+padding:50%;
+width: 100%;
+}
+
 .about {
     background: white;
     height: 700px;
